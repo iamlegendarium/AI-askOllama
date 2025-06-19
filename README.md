@@ -70,3 +70,9 @@ Node.js + Express
 Axios for API calls
 
 Ollama for local AI
+
+📸 Screenshot
+
+Here’s what a sample request/response looks like:
+
+![Snapshot](./Screenshot.png)

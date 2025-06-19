@@ -2,6 +2,12 @@ Node.js Chat API with Ollama (Locally)
 
 This is a simple Node.js server that connects to Ollama running locally on your MacBook. It exposes a POST API endpoint that takes a prompt and returns a response from the locally hosted LLM (like LLaMA 3).
 
+📸 Screenshot
+
+Here’s what a sample request/response looks like:
+
+![Snapshot](./Screenshot.png)
+
 How It Works
 
 - You start Ollama locally (ollama serve)
@@ -71,8 +77,3 @@ Axios for API calls
 
 Ollama for local AI
 
-📸 Screenshot
-
-Here’s what a sample request/response looks like:
-
-![Snapshot](./Screenshot.png)

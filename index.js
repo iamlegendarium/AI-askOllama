@@ -1,13 +1,10 @@
 const express = require("express");
 const app = express();
 const axios = require("axios");
-
 const port = 3000;
 
-// Middleware to parse JSON bodies
 app.use(express.json());
 
-// Corrected route handler
 app.post("/ask-ollama", async (req, res) => {
   const { prompt } = req.body;
 
